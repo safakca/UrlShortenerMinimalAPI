@@ -1,19 +1,21 @@
-**UrlShortenerMinimalAPI**
+# UrlShortenerMinimalAPI
 
 A simple URL shortener built with .NET 9 Minimal API.
 
-**Features**
+## Features
 
-POST /shorten – Send a long URL and get a short version back.
-GET /{code} – Redirects to the original URL using the short code.
-In-memory storage using Dictionary<string, string>.
-Auto-generated short codes using Base32 characters.
-Swagger support for easy testing.
+- **POST /shorten** – Send a long URL and get a short version back.
+- **GET /{code}** – Redirects to the original URL using the short code.
+- In-memory storage using `Dictionary<string, string>`.
+- Auto-generated short codes using Base32 characters.
+- Swagger support for easy testing.
 
-**How to Run**
-Clone the repo:
-git clone https://github.com/safakca/UrlShortenerMinimalAPI.git
-cd UrlShortenerMinimalAPI
+## How to Run
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/safakca/UrlShortenerMinimalAPI.git
+   cd UrlShortenerMinimalAPI
 
 **Run the app:**
 dotnet run
